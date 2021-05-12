@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Deploy Key Creation:
+Tutorial[https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-deploy-to-external-repository-external_repository]
+```
+ssh-keygen -t rsa -b 4096 -C "$(git config user.email)" -f gh-pages -N ""
+```
+Next, Go to Repository Settings
+
+* Go to Deploy Keys and add your public key with the Allow write access
+* Go to Secrets and add your private key as ``ACTIONS_DEPLOY_KEY``
