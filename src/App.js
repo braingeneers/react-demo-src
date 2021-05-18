@@ -8,8 +8,7 @@ function App() {
       <header className="App-header">
         <img src='wetai_logo.png' className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-          <b>WE HAVE BEEN CHANGED...</b>
+          <b>Coming Soon!</b>
         </p>
         <a
           className="App-link"
