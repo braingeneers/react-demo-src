@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from '../public/wetai_logo.png';
 import './App.css';
 
 function App() {
