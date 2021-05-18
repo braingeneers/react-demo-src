@@ -3,7 +3,7 @@ name: gh-pages-Deployment
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -25,10 +25,14 @@ jobs:
       - name: Build React Static Files
         run: npm run build
 
+      # Github Pages Action Documentation - by peaceiris
+      # https://github.com/marketplace/actions/github-pages-action
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          external_repository: braingeneers/react-demo
-          publish_branch: main
+          # For use in deploying to another repository
+          # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          # external_repository: braingeneers/react-demo
+          # publish_branch: main
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
