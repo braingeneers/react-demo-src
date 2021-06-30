@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src='wetai_logo.png' className="App-logo" alt="logo" />
         <p>
-          <b>Coming Soon!</b>
+          <b>WetAI website!</b>
         </p>
         <a
           className="App-link"
