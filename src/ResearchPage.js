@@ -27,12 +27,13 @@ function ResearchPage() {
     <div className="App">
       <Navbar/>
       <HeaderResearch/>
-      <People/>
+      
       <IOT image={IOTimage} title='Internet of Things Architecture for High Throughput Biology' button='View Paper'/>
       <Electrophysiology image={Electroimage} title='Light-weight Electrophysiology Hardware and Software Platform for Cloud-Based Neural Recording Experiments' button='View Paper'/>
       <OnlineLab image={Overviewimage} title='WetAI: An online laboratory for neuroscience and artificial intelligence' button='View Paper'/>
       <Feature/>
-      <Contact/>
+      <div id='contact'></div>
+      <div id='contact'></div>
       <div id='contact'></div>
       <div id='contact'></div>
     </div>

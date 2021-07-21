@@ -11,7 +11,7 @@ function Research(props){
     };
 
     return (
-        <div id='about'>
+        <div id='about_2'>
             <div className='about-image'>
                 <img src={props.image} alt=''/>
             </div>

@@ -20,8 +20,10 @@ function QuickStartPage() {
       <About image={aboutimage1} title='Research' button='Learn More'/>
       <Tutorial_Intro title='Tutorials' button='More Tutorials'/>
       <Feature/>
-      <Presentation/>
-      <Contact/>
+      <div id='contact'></div>
+      <div id='contact'></div>
+      <div id='contact'></div>
+      <div id='contact'></div>
     </div>
   );
 }

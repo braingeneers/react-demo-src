@@ -9,6 +9,7 @@ import About from './components/About';
 import Research from './components/Research';
 import aboutimage from './images/Overview.png';
 import aboutimage1 from './images/neuro.jpeg';
+import People from './components/People';
 import { Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
@@ -18,10 +19,14 @@ function Home() {
       <Navbar/>
       <HeaderHome/>
       <About image={aboutimage} title='What is WetAI?' button='Details'/>
+      <People/>
       <Tutorial_Intro title='Tutorials' button='More Tutorials'/>
       <Research image={aboutimage1} title='Research' button='Learn More'/>
       <Feature/>
-      <Contact/>
+      <div id='contact'></div>
+      <div id='contact'></div>
+      <div id='contact'></div>
+      <div id='contact'></div>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import logo from '../images/logo2.png';
+import {NavLink} from 'react-router-dom';
 
 function NavBar() {
 
@@ -25,11 +26,14 @@ function NavBar() {
                <span className='nav-icon'></span>
            </label>
            <ul className='menu'>
-               <li><a href='/home' className='active'>Home</a></li>
-               <li><a href='/research'>Research</a></li>
-               <li><a href='/tutorials'>Tutorials</a></li>
-               <li><a href='/quickstart'>Quick Start</a></li>
-               <li><a href='/contact'>Get in Contact</a></li>
+              
+
+               <li><NavLink exact activeClassName="active" to='/home' >Home</NavLink></li>
+               <li><NavLink activeClassName="active" to='/research'>Research</NavLink></li>
+                <li><NavLink activeClassName="active" to='/tutorials'>Tutorials</NavLink></li>
+                <li><NavLink activeClassName="active" to='/quickstart'>Quick Start</NavLink></li>
+                <li><NavLink activeClassName="active" to='/contact'>Get in Contact</NavLink></li>
+               
            </ul>
         </nav>
     )

@@ -11,7 +11,7 @@ function OnlineLab(props){
     };
 
     return (
-        <div id='about'>
+        <div id='about_paper'>
             <div className='about-image'>
                 <img src={props.image} alt=''/>
             </div>

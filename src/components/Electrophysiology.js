@@ -11,7 +11,7 @@ function Electrophysiology(props){
     };
 
     return (
-        <div id='about_2'>
+        <div id='about_2_paper'>
             <div className='about-image'>
                 <img src={props.image} alt=''/>
             </div>

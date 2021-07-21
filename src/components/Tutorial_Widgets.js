@@ -5,7 +5,7 @@ function Tutorial_Widgets(props){
     return (
         <div id='about_video'>
             <div className='about-image-video'>
-                 <ReactPlayer url="https://youtu.be/abXuRM0QVD0"/>
+                 <ReactPlayer url="https://youtu.be/abXuRM0QVD0" width='190%'/>
                 
             </div>
             <div className='about-text-video'>

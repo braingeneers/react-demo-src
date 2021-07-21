@@ -24,7 +24,10 @@ function TutorialsPage() {
       <Tutorial_Python title='Introduction to Python with Jupyter Notebooks'/>
       <Tutorial_Widgets title='Python App Tutorial with Jupyter Widgets'/>
       <Tutorial_Game title='Building a Game in 15 minutes'/>
-      <Contact/>
+      <div id='contact'></div>
+      <div id='contact'></div>
+      <div id='contact'></div>
+      <div id='contact'></div>
     </div>
   );
 }

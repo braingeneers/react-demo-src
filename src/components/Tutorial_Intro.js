@@ -12,9 +12,10 @@ function Tutorial_Intro(props){
     }; 
 
     return (
-        <div id='about_2_video'>
+        <div id='about'>
             <div className='about-image'>
-                <ReactPlayer url="https://www.youtube.com/watch?v=J1RwbnOmw3M" />
+                <ReactPlayer url="https://www.youtube.com/watch?v=J1RwbnOmw3M" width='95%'
+          />
                 
             </div>
             <div className='about-text-video'>
