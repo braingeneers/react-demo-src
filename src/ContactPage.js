@@ -10,7 +10,10 @@ function ContactPage() {
     <div className="App">
       <Navbar/>
       <HeaderContact/>
-      <Contact/>
+      <div id='contact'></div>
+      <div id='contact'></div>
+      <div id='contact'></div>
+      <div id='contact'></div>
     </div>
   );
 }

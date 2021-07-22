@@ -32,7 +32,7 @@ function NavBar() {
                <li><NavLink activeClassName="active" to='/research'>Research</NavLink></li>
                 <li><NavLink activeClassName="active" to='/tutorials'>Tutorials</NavLink></li>
                 <li><NavLink activeClassName="active" to='/quickstart'>Quick Start</NavLink></li>
-                <li><NavLink activeClassName="active" to='/contact'>Get in Contact</NavLink></li>
+                <li><NavLink activeClassName="active" to='/contact'>Contact Us</NavLink></li>
                
            </ul>
         </nav>

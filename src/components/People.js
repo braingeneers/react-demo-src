@@ -12,7 +12,7 @@ function People() {
         <div id='features-people'>
 
             <h1>People</h1>
-
+            <h3> WetAI is in development with the support of research staff</h3>
             <div className='a-container'>
                 <a href="https://braingeneers.ucsc.edu/">
                    <FeatureBox image={Davidimage} title="David Haussler"  />
