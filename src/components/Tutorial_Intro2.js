@@ -19,7 +19,7 @@ function Tutorial_Intro2(props){
             </div>
             <div className='about-text-video'>
                 <h2> {props.title} </h2>
-                <p> Summary about what WetAI is </p>
+                <p> This video explains what WetAI. Scientists conduct research inside WetAI through the control of wet lab experiments, analysis of resulting data, sharing of scientific findings, and the curation of community datasets. It provides examples of collaborations done on WetAI and presents applications made to aid in research. It also explains how code and sensitive medical data is shared. To learn how to launch Wetai, please visit the [quickstart page](link here). </p>
             </div>
         </div>
         

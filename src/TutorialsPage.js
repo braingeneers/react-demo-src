@@ -20,8 +20,8 @@ function TutorialsPage() {
     <div className="App">
       <Navbar/>
       <HeaderTutorials/>
-      <Tutorial_Intro2 title='What is WetAI?'/>
-      <Tutorial_Python title='Introduction to Python with Jupyter Notebooks'/>
+      <Tutorial_Intro2 title='WetAI Overview'/>
+      <Tutorial_Python title='Programming in WetAI'/>
       <Tutorial_Widgets title='Python App Tutorial with Jupyter Widgets'/>
       <Tutorial_Game title='Building a Game in 15 minutes'/>
       <div id='contact'></div>

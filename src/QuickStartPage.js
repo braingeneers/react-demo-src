@@ -4,11 +4,13 @@ import Feature from './components/Feature';
 import Presentation from './components/Presentation';
 import Contact from './components/Contact';
 import Tutorial_Intro from './components/Tutorial_Intro';
+import PlatformHeader from './components/PlatformHeader';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Docker from './components/Docker';
-import GitHub from './components/GitHub';
-import aboutimage from './images/Overview.png';
+import GoogleCloud from './components/GoogleCloud';
+import Terra from './components/Terra';
+import aboutimage from './images/terra.png';
 import aboutimage1 from './images/neuro.jpeg';
 import { Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
@@ -18,8 +20,10 @@ function QuickStartPage() {
     <div className="App">
       <Navbar/>
       <HeaderQuickStart/>
-      <Docker image={aboutimage} title='Docker' button='Details'/>
-      <GitHub image={aboutimage1} title='GitHub' button='Learn More'/>
+      <PlatformHeader/>
+      <GoogleCloud title='Google Cloud'/>
+      <Terra title='Terra' />
+      <Docker title='Docker' />
       <div id='contact'></div>
       <div id='contact'></div>
       <div id='contact'></div>

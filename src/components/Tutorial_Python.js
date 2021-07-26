@@ -10,7 +10,7 @@ function Tutorial_Python(props){
             </div>
             <div className='about-text-video'>
                 <h2> {props.title} </h2>
-                <p> Summary about python tutorial </p>
+                <p> We explain how users can write code in WetAI. WetAI provides a robust Jupyter programming environment for data analysis from resulting research. Though we already provide researchers with analytic tools, we encourage you to build and share your own code. This video shows the basics of programming with python in WetAI. It introduces the programming environment and provides tips for writing organized, well explained code. </p>
                 
             </div>
         </div>
