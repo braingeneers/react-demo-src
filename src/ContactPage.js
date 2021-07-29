@@ -14,6 +14,8 @@ function ContactPage() {
       <div id='contact'></div>
       <div id='contact'></div>
       <div id='contact'></div>
+      <div id='contact'></div>
+      <div id='contact'></div>
     </div>
   );
 }
