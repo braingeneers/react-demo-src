@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Link, BrowserRouter, withRouter, useHistory } from "react-router-dom";
+import {Link,useHistory } from "react-router-dom";
 
 function Electrophysiology(props){
     

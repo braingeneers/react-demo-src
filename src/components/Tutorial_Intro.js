@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactPlayer from "react-player";
-import { Route, Link, BrowserRouter, withRouter, useHistory } from "react-router-dom";
+import { Link,useHistory } from "react-router-dom";
 
 function Tutorial_Intro(props){
 

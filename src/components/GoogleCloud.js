@@ -1,15 +1,15 @@
 import React from 'react';
-import { Route, Link, BrowserRouter, withRouter, useHistory } from "react-router-dom";
+//import { useHistory } from "react-router-dom";
 import ReactPlayer from "react-player";
 
 function GoogleCloud(props){
     
-    let history = useHistory();
+    //let history = useHistory();
 
     // redirect to research page (for now, might have to change later)
-    const details  = () => {
-        history.push("/research");
-    };
+    //const details  = () => {
+    //    history.push("/research");
+    //};
 
     return (
         <div id='about'>

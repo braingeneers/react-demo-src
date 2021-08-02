@@ -6,7 +6,7 @@ function Contact(props){
              <h3> Get in contact</h3>
              <div className='contact-input'>
                  <input type='email' placeholder='example@gmail.com'/>
-                <a href='#'>Contact</a>
+                <a href='mailto: melliot1@ucsc.edu'>Contact</a>
              </div>
          </div>
 

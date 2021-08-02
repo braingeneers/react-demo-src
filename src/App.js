@@ -1,17 +1,10 @@
 import React from 'react';
-import Feature from './components/Feature';
-import Presentation from './components/Presentation';
-import Contact from './components/Contact';
-import About from './components/About';
 import Home from './Home';
 import AboutPage from './AboutPage';
 import TutorialsPage from './TutorialsPage';
 import ContactPage from './ContactPage';
 import ResearchPage from './ResearchPage';
 import QuickStartPage from './QuickStartPage';
-import aboutimage from './images/Overview.png';
-import aboutimage1 from './images/neuro.jpeg';
-import Navbar from './components/Navbar';
 import { Route } from 'react-router-dom';
 
 function App() {
